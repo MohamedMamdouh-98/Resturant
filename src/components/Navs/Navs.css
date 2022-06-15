@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box !important;
+}
+:root{
+    --mainColor: #a82d49;
+    --BColor: #858585;
+    --textColor: #210000;
+    --transition: 0.2s ease-in-out ;
+}
+nav{
+    background: #fff;
+}
+nav a{
+    color: var(--mainColor) !important;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 15px;
+}
+nav img{
+    max-width: 80px;
+    cursor: pointer;
+}
+#last-nav{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid var(--mainColor);
+    padding: 5px 15px !important;
+    background: var(--mainColor);
+    color: #fff !important;
+    transition: var(--transition)
+}
+#last-nav:hover{
+    background: transparent;
+    color: var(--mainColor)!important;
+}
