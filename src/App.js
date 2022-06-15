@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Intro from "./components/Intro/Intro";
 import Navs from "./components/Navs/Navs";
+import Video from "./components/video/Video";
 
 
 
@@ -15,6 +16,7 @@ class App extends Component {
         <Home/>
         <About/>
         <Intro/>
+        <Video/>
       </div>
     );
   }
