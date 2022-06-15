@@ -1,0 +1,44 @@
+.explore h2{
+    color: var(--textColor);
+    font-size: 40px;
+}
+.explore IMG{
+    width: 100%;
+    border-radius: 10px ;
+}
+.explore h5{
+    margin-top: 20px;
+    color: var(--textColor)
+}
+.explore p{
+    color: var(--BColor);
+    font-size: 18px
+}
+.explore span{
+    color: var(--mainColor);
+    font-size: 25px;
+    font-weight: bold;
+}
+.explore del{
+    color: var(--BColor)
+}
+.explore .text{
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 20px;
+}
+.explore button{
+    background-color: var(--mainColor);
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: var(--transition);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.explore button:hover{
+    background: white;
+    border-color: var(--mainColor);
+    color: var(--mainColor);
+}
