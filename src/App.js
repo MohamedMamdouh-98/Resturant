@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import About from "./components/About/About";
+import Barllax from "./components/Barllax/Barllax";
 import Explore from "./components/Explore/Explore";
 import Faq from "./components/Faq/Faq";
 import Home from "./components/Home/Home";
@@ -23,6 +24,7 @@ class App extends Component {
         <Explore/>
         <Testimonials/>
         <Faq/>
+        <Barllax/>
       </div>
     );
   }
