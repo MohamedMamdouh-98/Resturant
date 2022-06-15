@@ -4,6 +4,7 @@ import Explore from "./components/Explore/Explore";
 import Home from "./components/Home/Home";
 import Intro from "./components/Intro/Intro";
 import Navs from "./components/Navs/Navs";
+import Testimonials from "./components/Testimonials/Testimonials";
 import Video from "./components/video/Video";
 
 
@@ -19,6 +20,7 @@ class App extends Component {
         <Intro/>
         <Video/>
         <Explore/>
+        <Testimonials/>
       </div>
     );
   }

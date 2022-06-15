@@ -1,0 +1,47 @@
+.testimonials{
+    height: 100vh;
+    background: var(--mainColor);
+}
+.testimonials h2{
+    color: #fff
+}
+.t-info {
+    background: #fff;
+    border-radius: 20px;
+    height: 320px;
+}
+
+.t-info p{
+    width: 60%;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    font-size: 20px;
+    color: var(--BColor)
+}
+.t-info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px 
+}
+.t-info span{
+    color: var(--mainColor);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.testimonials .swiper-slide{
+    height: 400px;
+    margin-top: 70px;
+}
+.testimonials .swiper-pagination{
+    padding: 20px 0;
+}
+.testimonials .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+}
+.testimonials .swiper-pagination-bullet-active{
+    background: #fff
+}
