@@ -1,0 +1,35 @@
+.Footer{
+    background: var(--mainColor);
+    color: #ffffffe7;
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+}
+.Footer .social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Footer .social>*{
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.Footer .social>*:hover{
+    transform: scale(1.2)
+}
+.Footer .fa{
+    color: #f7eeee;
+    animation: faHart .3s linear infinite
+}
+
+@keyframes faHart{
+    100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+}

@@ -10,6 +10,7 @@ import Navs from "./components/Navs/Navs";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Video from "./components/video/Video";
 import Subscribe from './components/Subscribe/Subscribe';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() { 
@@ -25,6 +26,7 @@ class App extends Component {
         <Faq/>
         <Barllax/>
         <Subscribe/>
+        <Footer/>
       </div>
     );
   }
