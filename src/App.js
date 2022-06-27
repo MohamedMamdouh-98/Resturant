@@ -9,6 +9,7 @@ import Intro from "./components/Intro/Intro";
 import Navs from "./components/Navs/Navs";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Video from "./components/video/Video";
+import Subscribe from './components/Subscribe/Subscribe';
 
 class App extends Component {
   render() { 
@@ -23,6 +24,7 @@ class App extends Component {
         <Testimonials/>
         <Faq/>
         <Barllax/>
+        <Subscribe/>
       </div>
     );
   }

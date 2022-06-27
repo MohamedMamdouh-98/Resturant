@@ -5,7 +5,7 @@ import { Button, Navbar, Container, Nav } from 'react-bootstrap';
 
 function Navs() {
     return (
-        <Navbar expand="lg">
+        <Navbar expand="lg" className='shadow-lg sticky-top'>
         <Container>
             <Navbar.Brand>
                 <img src={Logo}/>
