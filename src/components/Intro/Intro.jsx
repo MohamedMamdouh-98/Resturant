@@ -1,10 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import { FiCheck } from "react-icons/fi";
-import Intro1 from '../../images/intro1.jpg'
-import Intro2 from '../../images/intro2.jpg'
-import Intro3 from '../../images/intro3.jpg'
-import Intro4 from '../../images/intro4.jpg'
+import IntroImage from '../../images/intro.png';
 function Intro() {
     return (
         <div className="intro">
@@ -18,15 +15,10 @@ function Intro() {
                             <p><FiCheck className="fa fs-2 me-2"/> Erat volutpat aliquet imperdiet.</p>
                             <p><FiCheck className="fa fs-2 me-2"/> purus a odio finibus bibendum.</p>
                         </div>
-                        <button>learn more</button>
+                        <button className="mb-3">learn more</button>
                     </div>
-                    <div className="col-md-6">
-                        <div className="row">
-                            <img src={Intro1} className="first"/>
-                            <img src={Intro2}className="tow"/>
-                            <img src={Intro3}className="three"/>
-                            <img src={Intro4}className="last"/>
-                        </div>
+                    <div className="col-md-6 intro-img">
+                            <img src={IntroImage} style={{width: '100%'}}/>
                     </div>
                 </div>
             </div>

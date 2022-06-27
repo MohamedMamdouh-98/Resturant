@@ -15,30 +15,30 @@ function Explore() {
                 <div className="row">
                     <div className="col-md-4">
                         <img src={E1}/>
-                        <div className="text ps-3">
+                        <div className="text ps-2">
                         <h5>Rainbow Vegetable Sandwich</h5>
                         <p>Time: 15 - 20 Minutes | Serves: 1</p>
                         <span>$10.50 <del>$11.70</del></span><br/>
                         </div>
-                        <button>order now</button>
+                        <button className='mb-3'>order now</button>
                     </div>
                     <div className="col-md-4">
                         <img src={E2}/>
-                        <div className="text ps-3">
+                        <div className="text ps-2">
                         <h5>Vegetarian Burger</h5>
                         <p>Time: 30 - 45 Minutes | Serves: 1</p>
                         <span>$9.20 <del>$10.50</del></span><br/>
                         </div>
-                        <button>order now</button>
+                        <button className='mb-3'>order now</button>
                     </div>
                     <div className="col-md-4">
                         <img src={E3}/>
-                        <div className="text ps-3">
+                        <div className="text ps-2">
                         <h5>Raspberry Stuffed French Toast</h5>
                         <p>Time: 10 - 15 Minutes | Serves: 1</p>
                         <span>$12.50 <del>$13.20</del></span><br/>
                         </div>
-                        <button>order now</button>
+                        <button className='mb-3'>order now</button>
                     </div>
                 </div>
             </div>

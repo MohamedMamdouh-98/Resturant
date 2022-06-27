@@ -23,7 +23,7 @@
 .barllax .container{
     display: flex;
     flex-wrap: wrap;
-    gap: 200px;
+    gap: 20px;
     align-items: center;
     z-index: 1;
 }
