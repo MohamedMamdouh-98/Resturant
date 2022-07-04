@@ -12,17 +12,17 @@
 }
 
 .t-info p{
-    width: 60%;
+    width: 70%;
     margin-left: 50%;
     transform: translatex(-50%);
-    font-size: 20px;
+    font-size: 18px;
     color: var(--BColor)
 }
 .t-info img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    margin-bottom: 30px 
+    margin-bottom: 20px 
 }
 .t-info span{
     color: var(--mainColor);
@@ -40,8 +40,12 @@
 .testimonials .swiper-pagination-bullet{
     width: 15px;
     height: 15px;
-    background-color: #ffffff;
+    background: #ffffff;
 }
 .testimonials .swiper-pagination-bullet-active{
     background: #fff
+}
+.t-info .text{
+    height: 100px;
+    overflow: hidden;
 }

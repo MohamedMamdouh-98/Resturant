@@ -42,7 +42,9 @@ function Testimonials() {
                             <SwiperSlide key={index}>
                                 <div className="t-info text-center pt-5">
                                     <img src={client.img}/>
-                                    <p>{client.review}</p>
+                                    <div className='text py-4'>
+                                        <p>{client.review}</p>
+                                    </div>
                                     <span>{client.span}</span>
                                 </div>
                             </SwiperSlide>

@@ -14,7 +14,9 @@ function Explore() {
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <img src={E1}/>
+                        <div className="img">
+                            <img src={E1}/>
+                        </div>
                         <div className="text ps-2">
                         <h5>Rainbow Vegetable Sandwich</h5>
                         <p>Time: 15 - 20 Minutes | Serves: 1</p>
@@ -23,7 +25,9 @@ function Explore() {
                         <button className='mb-3'>order now</button>
                     </div>
                     <div className="col-md-4">
-                        <img src={E2}/>
+                        <div className="img">
+                            <img src={E2}/>
+                        </div>
                         <div className="text ps-2">
                         <h5>Vegetarian Burger</h5>
                         <p>Time: 30 - 45 Minutes | Serves: 1</p>
@@ -32,7 +36,9 @@ function Explore() {
                         <button className='mb-3'>order now</button>
                     </div>
                     <div className="col-md-4">
-                        <img src={E3}/>
+                        <div className="img">
+                            <img src={E3}/>
+                        </div>
                         <div className="text ps-2">
                         <h5>Raspberry Stuffed French Toast</h5>
                         <p>Time: 10 - 15 Minutes | Serves: 1</p>
