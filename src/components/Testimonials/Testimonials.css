@@ -9,6 +9,7 @@
     background: #fff;
     border-radius: 20px;
     height: 320px;
+    cursor: grab;
 }
 
 .t-info p{
@@ -40,10 +41,10 @@
 .testimonials .swiper-pagination-bullet{
     width: 15px;
     height: 15px;
-    background: #ffffff;
+    background: #fff;
 }
 .testimonials .swiper-pagination-bullet-active{
-    background: #fff
+    background: #fff;
 }
 .t-info .text{
     height: 100px;

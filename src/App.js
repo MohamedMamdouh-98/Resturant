@@ -1,4 +1,3 @@
-import './App.css';
 import React, { Component } from "react"
 import About from "./components/About/About";
 import Barllax from "./components/Barllax/Barllax";
